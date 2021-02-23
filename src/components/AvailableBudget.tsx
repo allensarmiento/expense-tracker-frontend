@@ -12,10 +12,10 @@ const Detail = styled.div`
   width: 100%;
 `;
 
-type Totals = {
-  available: number;
-  income: number;
-  expense: number;
+export type Totals = {
+  available: string;
+  income: string;
+  expense: string;
 };
 
 type AvailableBudgetProps = {
@@ -26,7 +26,7 @@ const AvailableBudget = ({ totals }: AvailableBudgetProps) => {
   return (
     <BannerSection justifyContent="space-between">
       <BannerTitle>Total Available Budget</BannerTitle>
-      <Total>{totals.available}</Total>
+      <Total>${totals.available}</Total>
       <Detail>
         <AmountDisplay amount={totals.income} color="green" />
         <AmountDisplay amount={totals.expense} color="red" />

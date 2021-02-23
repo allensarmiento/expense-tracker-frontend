@@ -16,9 +16,9 @@ const MONTHS = [
 export class DateFormat {
   date: Date;
 
-  constructor(private y: number, private m: number) {
+  constructor(private y: number, private m: number, private d: number=1) {
     const yFormat: number = y < 0 ? 0 : y;
-    this.date = new Date(`${yFormat}-${this.m}`);
+    this.date = new Date(`${yFormat}-${this.m}-${this.d}`);
   }
 
   get month() {
@@ -27,5 +27,9 @@ export class DateFormat {
 
   get year() {
     return this.date.getUTCFullYear();
+  }
+
+  get day() {
+    return this.date.getUTCDate();
   }
 }
