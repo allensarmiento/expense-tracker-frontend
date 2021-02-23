@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<styled.div>
+  <styled.header>
+    <styled.span>
+      Date
+    </styled.span>
+    <styled.span>
+      Category
+    </styled.span>
+    <styled.span>
+      Description
+    </styled.span>
+    <styled.span>
+      Amount
+    </styled.span>
+  </styled.header>
+  <BudgetItem
+    item={
+      Object {
+        "amount": 19.99,
+        "category": "food",
+        "date": "2021-02-22",
+        "description": "Pizza",
+        "fixed": "yes",
+        "paid": "yes",
+        "type": "expense",
+      }
+    }
+    key="0"
+  />
+</styled.div>
+`;

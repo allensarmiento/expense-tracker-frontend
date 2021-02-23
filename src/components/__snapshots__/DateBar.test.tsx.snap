@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Styled(Container)>
+  <Styled(Button)
+    variant="light"
+  >
+    ←
+  </Styled(Button)>
+  <styled.div>
+    February
+     
+    2021
+  </styled.div>
+  <Styled(Button)
+    variant="light"
+  >
+    →
+  </Styled(Button)>
+</Styled(Container)>
+`;

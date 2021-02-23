@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<styled.div
+  color="green"
+>
+  <span>
+    Income
+    :
+  </span>
+   
+  <styled.span
+    color="green"
+  >
+    $
+    11
+  </styled.span>
+</styled.div>
+`;
+
+exports[`renders without crashing 2`] = `
+<styled.div
+  color="red"
+>
+  <span>
+    Expense
+    :
+  </span>
+   
+  <styled.span
+    color="red"
+  >
+    $
+    20
+  </styled.span>
+</styled.div>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Styled(Form)
+  onSubmit={[Function]}
+>
+  <FormRow>
+    <Col>
+      <Styled(FormControl)
+        max="2021-02-23"
+        min="1870-01-01"
+        name="current-date"
+        onChange={[Function]}
+        type="date"
+        value="2021-02-23"
+      />
+    </Col>
+    <Col>
+      <FormControl
+        as="select"
+        onChange={[Function]}
+        value="expense"
+      >
+        <option
+          value="income"
+        >
+          (+) Income
+        </option>
+        <option
+          value="expense"
+        >
+          (-) Expense
+        </option>
+      </FormControl>
+    </Col>
+    <Col>
+      <FormControl
+        as="select"
+        onChange={[Function]}
+        value="food"
+      >
+        <option
+          value="rent"
+        >
+          Rent
+        </option>
+        <option
+          value="utilities"
+        >
+          Utilities
+        </option>
+        <option
+          value="food"
+        >
+          Food
+        </option>
+        <option
+          value="drinks"
+        >
+          Drinks
+        </option>
+      </FormControl>
+    </Col>
+    <Col>
+      <Styled(FormControl)
+        onChange={[Function]}
+        placeholder="Description"
+        value=""
+      />
+    </Col>
+    <Col>
+      <Styled(FormControl)
+        min="0"
+        onChange={[Function]}
+        placeholder="0.00"
+        step=".01"
+        type="number"
+        value=""
+      />
+    </Col>
+    <Col>
+      <Styled(Button)
+        onClick={[Function]}
+        variant="primary"
+      >
+        Add
+      </Styled(Button)>
+    </Col>
+  </FormRow>
+</Styled(Form)>
+`;

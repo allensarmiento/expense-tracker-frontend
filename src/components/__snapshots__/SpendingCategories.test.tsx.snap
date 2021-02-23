@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<BannerSection>
+  <BannerTitle>
+    Spending Categories
+  </BannerTitle>
+  <styled.div>
+    <styled.div
+      key="0"
+    >
+      <styled.span>
+        food
+      </styled.span>
+      <styled.span>
+        $
+        20
+      </styled.span>
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <styled.span>
+        rent
+      </styled.span>
+      <styled.span>
+        $
+        1000
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</BannerSection>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<styled.div
+  type="expense"
+>
+  <styled.div>
+    <span>
+      2021-02-22
+    </span>
+    <span>
+      food
+    </span>
+    <span>
+      Pizza
+    </span>
+    <span>
+      19.99
+    </span>
+    <styled.button>
+      Delete
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`renders without crashing 2`] = `
+<styled.div
+  type="expense"
+>
+  <styled.div>
+    <span>
+      2021-02-22
+    </span>
+    <span>
+      food
+    </span>
+    <span>
+      Pizza
+    </span>
+    <span>
+      0.00
+    </span>
+    <styled.button>
+      Delete
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;

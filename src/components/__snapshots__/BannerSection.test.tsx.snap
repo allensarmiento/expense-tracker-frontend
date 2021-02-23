@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `<styled.section />`;
+
+exports[`renders without crashing 2`] = `
+<styled.section
+  justifyContent="space-between"
+/>
+`;
+
+exports[`renders without crashing 3`] = `
+<styled.section>
+  Test
+</styled.section>
+`;

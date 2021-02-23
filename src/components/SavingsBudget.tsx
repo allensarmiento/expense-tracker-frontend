@@ -4,7 +4,7 @@ import BannerTitle from './BannerTitle';
 const SavingsBudget = () => {
   return (
     <BannerSection>
-      <BannerTitle>Savings  Budget</BannerTitle>
+      <BannerTitle>Savings Budget</BannerTitle>
     </BannerSection>
   );
 };
