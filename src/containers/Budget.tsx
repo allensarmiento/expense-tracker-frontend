@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import DateBar from '../components/DateBar';
+// import DateBar from '../components/DateBar';
 import SpendingCategories from '../components/SpendingCategories';
-import SavingsBudget from '../components/SavingsBudget';
-import SpendingBudgets from '../components/SpendingBudgets';
+// import SavingsBudget from '../components/SavingsBudget';
+// import SpendingBudgets from '../components/SpendingBudgets';
 import AvailableBudget, { Totals } from '../components/AvailableBudget';
 import BudgetItems from '../components/BudgetItems';
 import BudgetInput from '../components/BudgetInput';
@@ -28,12 +28,12 @@ type Categories = {
 };
 
 const Budget = () => {
-  const currentDate = new Date();
-  const currentYear = currentDate.getUTCFullYear();
-  const currentMonth = currentDate.getUTCMonth() + 1;
+  // const currentDate = new Date();
+  // const currentYear = currentDate.getUTCFullYear();
+  // const currentMonth = currentDate.getUTCMonth() + 1;
 
-  const [year, setYear] = useState(currentYear);
-  const [month, setMonth] = useState(currentMonth);
+  // const [year, setYear] = useState(currentYear);
+  // const [month, setMonth] = useState(currentMonth);
   const [items, setItems] = useState<Array<Item>>([]);
   
   useEffect(() => {
