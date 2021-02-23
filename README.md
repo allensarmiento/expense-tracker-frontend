@@ -1,5 +1,7 @@
 # Expense Tracker Frontend
 
+[![allensarmiento](https://circleci.com/gh/allensarmiento/expense-tracker-frontend.svg?style=shield)](<LINK>)
+
 React app to keep track of expenses.
 
 ## Built With
